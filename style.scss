@@ -2,6 +2,9 @@ li{
     list-style: none;
 }
 
+header{
+    margin-top: 50px;
+}
 .wrap{
     margin: 0 auto;
     text-align: center;
@@ -35,3 +38,21 @@ li{
         padding-bottom: 5px;
     }
 }
+
+
+@media screen and (min-width: 481px){
+    @import 'breakpoints/480up';
+  }
+  
+  @media screen and (min-width: 601px){
+    @import 'breakpoints/600up';
+  }
+  
+  @media screen and (min-width: 961px){
+    @import 'breakpoints/960up';
+  }
+  
+  @media screen and (min-width: 1280px){
+    @import 'breakpoints/1280up';
+  }
+  

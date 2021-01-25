@@ -1,5 +1,10 @@
+@charset "UTF-8";
 li {
   list-style: none;
+}
+
+header {
+  margin-top: 50px;
 }
 
 .wrap {
@@ -31,5 +36,58 @@ li {
 
 .list_container li {
   padding-bottom: 5px;
+}
+
+@media screen and (min-width: 481px) {
+  /******************************************************************
+
+Stylesheet: 480px以上(スマホの横向き)のモニタで適用
+
+******************************************************************/
+}
+
+@media screen and (min-width: 601px) {
+  /******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+}
+
+@media screen and (min-width: 961px) {
+  /******************************************************************
+
+Stylesheet: 960px以上のモニタで適用
+
+******************************************************************/
+  header {
+    margin-top: 100px;
+  }
+  header h1 {
+    font-size: 62px;
+    font-weight: 400;
+  }
+  .list_container {
+    margin: 150px 0;
+  }
+  .list_container .list-item {
+    padding-bottom: 62px;
+  }
+  .list_container h2 {
+    font-size: 45px;
+    font-weight: 300;
+  }
+  .list_container li {
+    font-size: 35px;
+    font-weight: 200;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /******************************************************************
+
+Stylesheet: 1280px以上のモニタで適用
+
+******************************************************************/
 }
 /*# sourceMappingURL=style.css.map */
