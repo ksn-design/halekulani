@@ -237,7 +237,7 @@ Stylesheet: 600px以上のタブレットやモニタで適用
 
 ******************************************************************/
   header {
-    margin-top: 50px;
+    margin-top: 10px;
   }
   header h1 {
     font-size: 62px;
