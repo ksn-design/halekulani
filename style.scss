@@ -7,6 +7,18 @@ li{
     font-size: 19px;
 }
 
+.change-lang{
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+    color: black;
+    font-size: 13px;
+    background-color:rgba(0, 0, 0, 0.05);
+}
+// .change-lang-active{
+   
+// }
+
 header{
     padding-top: 50px;
     background-color: white;
@@ -177,7 +189,9 @@ header{
     }
 }
 
-
+@media screen and (min-height:800px ){
+    @import 'breakpoints/height-800up';
+}
 @media screen and (min-width: 481px){
     @import 'breakpoints/480up';
   }
