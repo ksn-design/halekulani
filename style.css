@@ -8,6 +8,10 @@ li {
   font-size: 19px;
 }
 
+a {
+  color: -webkit-link;
+}
+
 .change-lang {
   position: absolute;
   top: 2vh;
