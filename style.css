@@ -46,8 +46,19 @@ header .header_container_content {
   width: 95%;
 }
 
-.wrap header_content title h1 {
+.wrap .header_content .title h1 {
   font-size: 28px;
+}
+
+.wrap .header_content .title img {
+  width: 175px;
+}
+
+.logo {
+  left: 8px;
+  top: -43px;
+  width: 56px;
+  position: absolute;
 }
 
 .container {
@@ -62,6 +73,12 @@ header .header_container_content {
   z-index: 2;
   -webkit-transition: all 0.8s;
   transition: all 0.8s;
+}
+
+.list_container .wrap .list-item img {
+  width: 156px;
+  padding-top: 31px;
+  padding-bottom: 18px;
 }
 
 .mobile-menu {
