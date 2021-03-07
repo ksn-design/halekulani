@@ -57,7 +57,7 @@ header .header_container_content {
 .logo {
   left: 8px;
   top: -43px;
-  width: 56px;
+  width: 50px;
   position: absolute;
 }
 
@@ -77,8 +77,13 @@ header .header_container_content {
 
 .list_container .wrap .list-item img {
   width: 156px;
-  padding-top: 31px;
+  padding-top: 23px;
   padding-bottom: 18px;
+}
+
+.list_container .wrap .list-item h2 {
+  font-style: oblique;
+  font-weight: lighter;
 }
 
 .mobile-menu {
